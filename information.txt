@@ -1,0 +1,17 @@
+api-gateway 
+server.port=8999
+
+
+e-service
+server.port= 8761
+
+
+user-service
+server.port=8181
+
+
+cintact-service
+server.port=8282
+
+using restTemple
+ //List contacts = this.restTemplate.getForObject("http://contact-service:8282/contact/" + user.getUserId(), List.class);
